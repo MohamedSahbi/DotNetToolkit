@@ -15,11 +15,6 @@ namespace DotNetToolkit.Extensions
             return !IsEmptyString(text);
         }
 
-        /// <summary>
-        /// Returns a copy of this string without white spaces
-        /// </summary>
-        /// <param name="text"></param>
-        /// <returns></returns>
         public static string RemoveWhiteSpaces(this string text)
         {
             text = text.Trim().Replace(" ", "");
